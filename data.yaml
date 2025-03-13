@@ -1,0 +1,22 @@
+# Dataset Paths
+train: D:/sonar seg/ttv/train/images  # Train images folder
+val: D:/sonar seg/ttv/val/images  # Validation images folder
+test: D:/sonar seg/ttv/test/images  # Test images folder (optional)
+
+
+# Number of classes
+nc: 11  # Update if the number of classes changes
+
+# Class Names
+names:
+  - Bottle
+  - Can
+  - Chain
+  - Drink-carton
+  - Hook
+  - Propeller
+  - Shampoo-bottle
+  - Standing-bottle
+  - Tire
+  - Valve
+  - Wall
